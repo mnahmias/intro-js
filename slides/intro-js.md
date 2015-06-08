@@ -5,17 +5,31 @@ http://mnahmias.github.io/intro-js
 
 ---
 
+##Agenda
+
+* How the web works
+* Role of JS
+* What is the DOM?
+* Components of JS
+* Build a media carousel
+
+---
+
 ##How the web works
 
-Server/Client relationship
+* Server/Client relationship
+* Static and Dynamic pages
+* JS was historically a client-side language
 
 
 ---
 
 ##HTML, CSS, and JS roles
 
-* HTML is content: http://mnahmias.github.io/intro-js/example/1.html
-* CSS adds the visual layer http://mnahmias.github.io/intro-js/example/2.html
+* HTML identifies content: http://mnahmias.github.io/intro-js/example/1.html
+<br>
+* CSS adds the visual layer: http://mnahmias.github.io/intro-js/example/2.html
+<br>
 * Javascript adds the interactive layer http://mnahmias.github.io/intro-js/example/3.html
 
 ---
@@ -23,29 +37,6 @@ Server/Client relationship
 ##The DOM
 
 The Document Object Model. The HTML you write is parsed by the browser and turned into the DOM. In a lot of cases the visual representation of the DOM will be identical to your HTML. We can use javascript to alter the DOM on the fly.
-
----
-
-Understand how programming languages work, their relationship to the machine on which the language is run
-
-
-Understand and apply programming fundamentals using JavaScript: basic data types, arithmetic, conditional statements, iteration (loops), functions, arrays and objects
-
-Define Variables
-Show Math
-Describe Conditionals
-Show Loops
-Show functions
-Show Arrays
-Explain Objects
-
-
-Understand basic best-practices in software engineering at a high level
-
-
-
-
-Build a complete, working HTML5 web application by building a professional swipe gallery/media carousel from scratch
 
 ---
 
@@ -276,7 +267,7 @@ Welcome to FEWD7, Michaelangelo.
 
 ---
 
-## Arrays!
+## Arrays
 
 **Arrays** are "ordered lists". They have elements which are *indexed*, and they have a **length**. Arrays are "Zero-Indexed"
 
@@ -299,7 +290,7 @@ console.log( todoList[ todoList.length - 1 ] ) // Prints out "Learn JavaScript"
 
 ---
 
-## Arrays, cont.
+## Arrays
 
 ```
 // Repeated for clarity
@@ -314,6 +305,42 @@ var badList = [234, "abcd", [], null]; // Don't do this. Ask me why.
 
 ---
 
+##Objects
+
+* Objects are collections of data types that all describe a single thing.
+* The data in objects is represented by key/value pairs.
+```
+var object = {
+  key: value,
+  key: value,
+  key: value
+};
+```
+---
+
+##Objects
+
+* Objects can contain any kind of data types and even other objects.
+
+```
+var person = {
+  name: 'Frumpy',
+  age: 30,
+  eyes: {
+    left: 'green',
+    right: 'orange'
+  }
+};
+```
+
+---
+* Remember the DOM? Everything in the DOM is an object.
+---
+
+
+Build a complete, working HTML5 web application by building a professional swipe gallery/media carousel from scratch
+
+---
 
 ##Good night!
 
