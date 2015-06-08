@@ -64,11 +64,11 @@ Some of the types of values we support include:
 
 * Stores textual information
 * Strings are surrounded by quotes
-<br/><br/>
-```'How is the weather today?'```
-<br/><br/>
+<br>
+```
+'How is the weather today?'
+```
 
-Single quotes are considered best practice.
 
 ---
 
