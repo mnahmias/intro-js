@@ -14,9 +14,9 @@ Server/Client relationship
 
 ##HTML, CSS, and JS roles
 
-HTML is content: http://mnahmias.github.io/intro-js/example/1.html
-CSS adds the visual layer http://mnahmias.github.io/intro-js/example/2.html
-Javascript adds the interactive layer http://mnahmias.github.io/intro-js/example/3.html
+* HTML is content: http://mnahmias.github.io/intro-js/example/1.html
+* CSS adds the visual layer http://mnahmias.github.io/intro-js/example/2.html
+* Javascript adds the interactive layer http://mnahmias.github.io/intro-js/example/3.html
 
 ---
 
@@ -77,7 +77,6 @@ Some of the types of values we support include:
 
 ---
 
-
 ##Strings
 
 * Stores textual information
@@ -87,24 +86,6 @@ Some of the types of values we support include:
 <br/><br/>
 
 Single quotes are considered best practice.
-
---
-
-##Strings
-
-Double vs single quoted strings:
-
-'They "purchased" it'
-
-"It's a beautiful day"
-
---
-
-##Strings
-Escaping
-"They \"purchased\" it"
-
-'It\'s a beautiful day'
 
 ---
 
@@ -121,13 +102,13 @@ float:      3.14159265
 
 ##Arithmetic In JavaScript
 
-![](../img/unit_1/arithmetic.jpg)
+![](img/unit_1/arithmetic.jpg)
 
 ---
 
 ##Conditionals
 
-![](../img/unit_1/cfDiagram.png)
+![](img/unit_1/cfDiagram.png)
 
 ---
 
@@ -208,7 +189,7 @@ if (name == "GA" && password == "YellowPencil"){
 
 ##The Truth Table
 
-![](../img/unit_1/and_table.png)
+![](img/unit_1/and_table.png)
 
 --
 
@@ -224,10 +205,10 @@ if (day == "Tuesday"  || day == "Thursday"){
 
 ##The Truth Table
 
-![](../img/unit_1/or_table.png)
+![](img/unit_1/or_table.png)
 
 ---
 
 ##Good night!
 
-<img src="../img/unit_2/space_bear.gif">
+<img src="img/unit_2/space_bear.gif">
