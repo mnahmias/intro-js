@@ -20,6 +20,7 @@ http://mnahmias.github.io/intro-js
 * Server/Client relationship
 * Static and Dynamic pages
 * JS was historically a client-side language
+![](img/unit_1/client-server.jpg)
 
 
 ---
