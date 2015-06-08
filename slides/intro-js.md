@@ -209,6 +209,112 @@ if (day == "Tuesday"  || day == "Thursday"){
 
 ---
 
+##Functions
+
+Chunks of code that help us:
+
+* Stay organized
+* Not repeat ourselves
+* Control the order things happen
+
+---
+
+##Function Syntax
+
+```
+function helloWorld(){
+	console.log('hello!');
+}
+```
+
+If this were our only javascript, nothing would ever happen!
+
+Defining a function does not cause it to run.
+
+---
+
+##Function Calls
+
+```
+function helloWorld(){
+	console.log('hello!');
+}
+
+console.log('world!');
+
+helloWorld(); //this is how we call a function!
+```
+
+Console results:
+```
+world!
+hello!
+```
+
+---
+
+##Function Arguments
+
+Arguments give us a way to tell a function to use certain data.
+
+```
+function greetPerson(greeting, name){
+	console.log(greeting + ', ' + name + '.');
+}
+
+var message = 'Welcome to FEWD7';
+
+greetPerson(message, 'Donatello');
+greetPerson(message, 'Michaelangelo');
+```
+
+Console results:
+```
+Welcome to FEWD7, Donatello.
+Welcome to FEWD7, Michaelangelo.
+```
+
+---
+
+## Arrays!
+
+**Arrays** are "ordered lists". They have elements which are *indexed*, and they have a **length**. Arrays are "Zero-Indexed"
+
+```
+// Make an array, with "An Array Literal"
+var todoList = ["Take out the trash", "Quit smoking", "Learn JavaScript"];
+
+// Access element at index 1
+console.log( todoList[ 1 ] ); // Prints out "Quit smoking"
+
+// Get the length
+console.log( todoList.length ); // Prints out 3
+
+// Access the element at the length
+console.log( todoList[ todoList.length ] ) // ALWAYS UNDEFINED!!
+
+// Correct accessing of very last element
+console.log( todoList[ todoList.length - 1 ] ) // Prints out "Learn JavaScript"
+```
+
+---
+
+## Arrays, cont.
+
+```
+// Repeated for clarity
+var todoList = ["Take out the trash", "Quit smoking", "Learn JavaScript"];
+
+// Set the element at index 2
+todoList[2] = "Learn AngularJS";
+
+// Arrays can contain AnYtHiNg!
+var badList = [234, "abcd", [], null]; // Don't do this. Ask me why.
+```
+
+---
+
+
 ##Good night!
 
 <img src="img/unit_2/space_bear.gif">
