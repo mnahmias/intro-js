@@ -42,19 +42,11 @@ The Document Object Model. The HTML you write is parsed by the browser and turne
 
 ##Variables
 
-* We can tell our program to remember values for us to use later on.
-
-* The action of saving a value to memory is called assignment
-
-* The entity we use to store the value is called a variable
-
-* The action of getting the value from a variable is called accessing the variable
-
----
-
-##Variables & Data Types
-
-What can you store in a variable?
+* Variables are the entity Javascript uses to store data.
+<br>
+```
+var x = 'some data'
+```
 
 --
 
@@ -71,7 +63,7 @@ Some of the types of values we support include:
 ##Strings
 
 * Stores textual information
-* String literal is surrounded by quotes
+* Strings are surrounded by quotes
 <br/><br/>
 ```'How is the weather today?'```
 <br/><br/>
@@ -125,7 +117,7 @@ if(condition is true) {
 }
 ```
 
---
+---
 
 ##Conditional Syntax
 
@@ -137,7 +129,7 @@ if(condition is true) {
   }
 ```
 
---
+---
 
 ##Conditional Syntax
 
@@ -176,13 +168,13 @@ if (name == "GA" && password == "YellowPencil"){
 }
 ```
 
---
+---
 
 ##The Truth Table
 
 ![](img/unit_1/and_table.png)
 
---
+---
 
 ##The Truth Table
 
@@ -192,7 +184,7 @@ if (day == "Tuesday"  || day == "Thursday"){
 }
 ```
 
---
+---
 
 ##The Truth Table
 
