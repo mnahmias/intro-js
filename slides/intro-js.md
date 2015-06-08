@@ -236,8 +236,6 @@ function helloWorld(){
 	console.log('hello!');
 }
 
-console.log('world!');
-
 helloWorld(); //this is how we call a function!
 ```
 
@@ -319,6 +317,7 @@ for ([initialization]; [condition]; [final-expression])
 ```
 
 ```
+var i;
 for (i = 0; i<15; i++){
   console.log('blarp');
 }
