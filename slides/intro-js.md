@@ -354,11 +354,16 @@ var person = {
 ```
 
 ---
+
 * Remember the DOM? Everything in the DOM is an object.
+![](img/unit_1/dom-object.png)
+
 ---
 
 
-Build a complete, working HTML5 web application by building a professional swipe gallery/media carousel from scratch
+Let's make a slider!
+<br>
+http://codepen.io/mnahmias/pen/bdWxEp
 
 ---
 
