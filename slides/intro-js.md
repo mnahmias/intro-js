@@ -67,7 +67,7 @@ Some of the types of values we support include:
 * Strings are surrounded by quotes
 <br>
 ```
-'How is the weather today?'
+var string = 'How is the weather today?';
 ```
 
 
@@ -77,9 +77,21 @@ Some of the types of values we support include:
 
 Represent numerical data
 
-int:         42
+```
+var integer = 9;
+```
+```
+var float = 6.34;
+```
 
-float:      3.14159265
+---
+
+##Booleans
+
+* A boolean stores a ```true``` or ```false``` value
+
+* These are typically used in conditionals, which we will talk about in a moment.
+
 
 ---
 
