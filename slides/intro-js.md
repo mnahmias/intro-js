@@ -1,27 +1,30 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
+##Intro to Javascript
 
-Intro to Javascript
+Follow along!
+http://mnahmias.github.io/intro-js
 
 ---
 
+##How the web works
 
-Gauge skill level
-
-Understand at a high-level how the web works, the role of the browser and where the industry is going: the rise and importance of mobile and how the web and JavaScript fit into this
-
-
-Define the role of HTML, CSS, and JavaScript in web pages and web applications
-
-Q: What is HTML? A: The content
-Q: What is CSS? A: The visual layer
-Q: What is Javascript? A: The interactive layer
+Server/Client relationship
 
 
-Define the DOM and JavaScript's importance in using it to create rich web applications
+---
 
-Q: What is the DOM?
-A: The Document Object Model. The HTML you write is parsed by the browser and turned into the DOM. In a lot of cases the visual representation of the DOM will be identical to your HTML. We can use javascript to alter the DOM on the fly. **Show innerHTML change on bootstrap.com**
+##HTML, CSS, and JS roles
 
+HTML is content: http://mnahmias.github.io/intro-js/example/1.html
+CSS adds the visual layer http://mnahmias.github.io/intro-js/example/2.html
+Javascript adds the interactive layer http://mnahmias.github.io/intro-js/example/3.html
+
+---
+
+##The DOM
+
+The Document Object Model. The HTML you write is parsed by the browser and turned into the DOM. In a lot of cases the visual representation of the DOM will be identical to your HTML. We can use javascript to alter the DOM on the fly.
+
+---
 
 Understand how programming languages work, their relationship to the machine on which the language is run
 
