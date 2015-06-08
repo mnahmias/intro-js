@@ -310,6 +310,17 @@ var badList = [234, "abcd", [], null]; // Don't do this. Ask me why.
 
 ---
 
+##Loops
+
+Loops allow you repeat a task a number of times programmatically. For example, say we want to print the word 'blarp' to the console fifteen times. It would be a pain to write the code to do that, but a loop can make it very easy.
+```
+for (i = 0; i<15; i++){
+  console.log('blarp');
+}
+```
+
+---
+
 ##Objects
 
 * Objects are collections of data types that all describe a single thing.
